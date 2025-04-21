@@ -4,6 +4,7 @@
 
     // icons 
     import { MoonIcon} from 'svelte-feather-icons'
+    import { GlobeIcon } from 'svelte-feather-icons';
     // import { SunIcon } from 'svelte-feather-icons'
 
 
@@ -56,7 +57,7 @@
         </ul>
       
        <button>
-          <MoonIcon size="1.5x" class="text-[#A8A8A8]" />
+         <GlobeIcon size="1.5x" class="text-[#A8A8A8] hover:text-white" />
        </button>
         <!-- Dark Mode Toggle -->
         <!-- <button on:click={toggle} class="focus:outline-none p-4">
