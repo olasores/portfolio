@@ -57,7 +57,7 @@
         </ul>
       
        <button class="p-4">
-         <GlobeIcon size="1.5x" class=" text-[#A8A8A8] hover:text-white" />
+         <GlobeIcon size="1.5x" class=" hidden sm:block text-[#A8A8A8] hover:text-white" />
        </button>
         <!-- Dark Mode Toggle -->
         <!-- <button on:click={toggle} class="focus:outline-none p-4">
