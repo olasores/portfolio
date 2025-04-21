@@ -3,7 +3,7 @@
     // https://github.com/dylanblokhuis/svelte-feather-icons
 
     // icons 
-    // import { MoonIcon} from 'svelte-feather-icons'
+    import { MoonIcon} from 'svelte-feather-icons'
     // import { SunIcon } from 'svelte-feather-icons'
 
 
@@ -55,6 +55,9 @@
           {/each}
         </ul>
       
+       <button>
+          <MoonIcon size="1.5x" class="text-[#A8A8A8]" />
+       </button>
         <!-- Dark Mode Toggle -->
         <!-- <button on:click={toggle} class="focus:outline-none p-4">
           {#if $darkMode}
