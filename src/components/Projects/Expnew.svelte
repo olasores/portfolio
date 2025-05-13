@@ -2,6 +2,12 @@
 
     const experiences = [
         {
+            date: "December 2024 - Present",
+            title: "Web Development Intern",
+            company: "Future Trends Enterprise",
+            description: "Developed and launched web applications for 5+ businesses, streamlining their digital presence and reducing deployment time by 40%. Collaborated with cross-functional teams to enhance user experience and optimize performance."
+        },
+        {
             date: "August 2024 - November 2024",
             title: "Leadership Fellow",
             company: "Girls Who Code",
